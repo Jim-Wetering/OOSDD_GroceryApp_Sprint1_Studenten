@@ -26,7 +26,7 @@ namespace Grocery.Core.Data.Repositories
         }
         public List<Product> GetAll()
         {
-            return []; //wijzig dit in de gemaakte lijst uit de constructo
+            return products; //wijzig dit in de gemaakte lijst uit de constructo
         }
 
         public Product? Get(int id)
